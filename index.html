@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>d3.js</title>
+    <meta name="description" content="About d3.js" />
+    <meta name="author" content="Kristina Klepik" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/night.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+    <div class="reveal">
+      <div class="slides">
+      <section data-auto-animate>
+        <a href="https://d3js.org/" target="_blank">
+          <img
+            src="./examples/assets/logo_d3.png "
+            alt="d3.js logo"
+            style="
+              height: 180px;
+              margin: 0 auto 4rem auto;
+              background: transparent;
+            "
+            class="demo-logo"
+          />
+        </a>
+        <h3>Data-Driven Documents</h3>
+        <p>
+          <small
+            >Created by <a href="https://github.com/Kristy-user" target="_blank" >Kristina Klepik</a></small
+          >
+        </p>
+      </section>
+      <section data-auto-animate>
+        <img
+        src="./examples/assets/logo_d3.png "
+        alt="d3.js logo"
+        style="
+          height: 380px;
+          margin: 0 auto 4rem auto;
+          background: transparent;
+        "
+        class="demo-logo"
+      />
+       </section>
+       <section>
+        <img
+        src="./examples/assets/datab.png "
+        alt="d3.js logo"
+        style="
+          height: 100vh;
+          margin: 0 auto 4rem auto;
+          background: transparent;
+        "
+        class="demo-logo"
+      />
+      </section>
+      <section><img
+    src="./examples/assets/logo_d3.png "
+    alt="d3.js logo"
+    style="position:absolute;
+      height: 100px;
+      bottom: -220px;
+      left:-150px;
+      opacity:0.3;
+    " class="demo-logo"/>
+   <p style="color: rgb(247,144,69);
+     font-size: 84px; font-weight:600
+    ">What & Why</p>
+     <p style="color: rgb(247,144,69);
+        font-size: 84px; font-weight:600
+       " class="fragment" data-fragment-index="1">How</p>
+      </section>
+      <section>
+        <section id="fragments">
+          <img
+          src="./examples/assets/logo_d3.png "
+          alt="d3.js logo"
+          style="position:absolute;
+            height: 100px;
+            bottom: -100px;
+            left:-150px;
+            opacity:0.3;
+          " class="demo-logo"/>
+         <h1 style="color: rgb(247,144,69);
+         font-size: 86px; font-weight:600; text-align:center
+        ">What</h1>
+        <div style="text-align:left;margin-left:8%">
+         <p class="fragment fade-left" >- <span style="color: yellow;">JavaScript library</span> for manipulating documents based on data;</p>
+         <p class="fragment fade-left" >- Mike Bostock, Vadim Ogievetsky, Jeffrey Heer. <br/> Initially released in Feb. 2011;</p>
+         <p class="fragment fade-left" >- Stands for Data Driven Documents;</p>
+         <p class="fragment fade-left" >- Used web standards: <span style="color: rgb(247, 247, 69); font-weight:600">HTML, CSS, SVG</span>;</p>
+         <p class="fragment fade-down" >- Github - 
+          <a href="https://github.com/d3/d3" target="_blank" >https://github.com/d3/d3</a>
+          </p>
+        </div>
+        </section>
+        <section id="fragments">
+          <img src="./examples/assets/mike.jpg"/>
+        </section>
+       </section>
+   <section>
+    <section id="fragments">
+   <img
+    src="./examples/assets/logo_d3.png "
+    alt="d3.js logo"
+    style="position:absolute;
+      height: 100px;
+      bottom: -100px;
+      left:-150px;
+      opacity:0.3;
+    " class="demo-logo"/>
+         <h1 style="color: rgb(247,144,69);
+         font-size: 86px; font-weight:600; 
+        ">Why</h1>
+        <div style="text-align:left; margin-left:20%"> 
+          <p class="fragment fade-up">- Helps you bring data to life;</p>
+         <p class="fragment fade-up">- Tell your story more easily;</p>
+         <p class="fragment fade-up">- Declarative and Data Bound;</p>
+         <p class="fragment fade-up">- Manipulating Data based SVGs;</p>
+         <p class="fragment fade-up">- Interactive;</p></div>
+        </section>
+        <section id="frafments">
+          <video data-autoplay src="./examples/assets/d3.mp4"></video>
+        </section>
+       </section>
+      
+       <section >
+        <section id="fragments">
+          <h2>Difference Chart</h2>
+         <img src="./examples/assets/charts/chart.gif" alt="chart_d3" style="
+         height: 400px;
+        border-radius:8px;
+         "/>
+        </section>
+        <section>
+          <img src="./examples/assets/charts/chart.jpg" alt="chart_d3" style="
+        height:600px;
+        border-radius:8px;
+         "/>
+       </section>
+      </section>
+      <section>
+       <h2>Sunburst</h2>
+         <img src="./examples/assets/charts/sun.gif" alt="chart_d3" style="
+         height: 400px;
+        border-radius:8px;
+         "/>
+      </section>  
+      <section>
+      
+        <section id="fragments">
+            <h2>Maps</h2>
+          <img src="./examples/assets/charts/map.jpg" alt="chart_d3" style="
+          height: 400px;
+         border-radius:8px;
+          "/>
+        </section>
+        <section id="fragments">
+          
+          <img src="./examples/assets/charts/map1.jpg" alt="chart_d3" style="
+          height: 400px;
+         border-radius:8px;
+          "/>
+        </section>
+       </section>
+       <section>
+        <section id="fragments">
+          <h2>Another</h2>
+        <img src="./examples/assets/liquid.png" alt="chart_d3" style="
+          height: 400px;
+         border-radius:8px;
+          "/>
+        </section>
+        <section id="fragments">
+          <img src="./examples/assets/mona-lisa.jpg" alt="chart_d3" style="
+            height: 400px;
+           border-radius:8px;
+            "/>
+          </section>
+       </section>
+       <section>
+        <section id="fragments">
+          <img
+          src="./examples/assets/logo_d3.png "
+          alt="d3.js logo"
+          style="position:absolute;
+            height: 100px;
+            bottom: -50px;
+            left:-150px;
+            opacity:0.3;
+          " class="demo-logo"/>
+         <h1 style="color: rgb(247,144,69);
+         font-size: 86px; font-weight:600; text-align:center
+        ">How</h1>
+        <div style="text-align:left;margin-left:8%">
+         <p class="fragment fade-left" >- Use CSS style selectors to select nodes (select by tag, class, identifier, attribute, hierarchy)</p>
+         <div><pre class="fragment fade-left"
+          data-id="code-animation"
+        ><code class="hljs javascript" data-trim data-line-numbers>
+          const svg = d3.select('svg');</code></pre>
+         <p class="fragment fade-left" >- Manipulate them in a manner similar to jQuery (get/set attributes, display text, add styles);</p>
+         <p class="fragment fade-left" >- Bind some data;</p>
+         <p class="fragment fade-left" >- Utilize additional libraries;</p>
+        </div>
+        </section>
+        <section id="fragments">
+         <img data-fragment-index="0" style="top: 35px; position: absolute; right:-20px; z-index:5" src="./examples/assets/circle.jpg"/>
+          <pre style="max-width: 600px;" data-id="code-animation"
+        ><code class="hljs javascript" data-trim data-line-numbers>
+          const svg = d3.select('svg');
+          svg
+            .append('circle');
+        </code>
+        <code class="hljs javascript fragment"  data-trim data-line-numbers>
+          const svg = d3.select('svg');
+          svg
+            .append('circle');
+            .attr('cx',50%);
+        </code>
+        <code class="hljs javascript fragment"  data-trim data-line-numbers>
+          const svg = d3.select('svg');
+          svg
+            .append('circle');
+            .attr('cx',50%);
+            .attr('cy',50%);
+        </code>
+        <code class="hljs javascript fragment"  data-trim data-line-numbers>
+          const svg = d3.select('svg');
+          svg
+            .append('circle');
+            .attr('cx',50%);
+            .attr('cy',50%);
+            .attr('r',20);
+        </code>
+        <code class="hljs javascript fragment"  data-trim data-line-numbers>
+          const svg = d3.select('svg');
+          svg
+            .append('circle');
+            .attr('cx',50%);
+            .attr('cy',50%);
+            .attr('r',20);
+            .style('fill','green');
+        </code>
+      </pre>
+      <img style="top: 35px; position: absolute; right:-20px; z-index:5" class="fragment" src="./examples/assets/circle1.jpg"/>
+     </section>
+     <section>
+      <h4 style="font-size: 46px; color:rgb(255, 200, 0); font-weight:600; margin-bottom:40px; ">selectAll</h4>
+        <pre><code class="hljs javascript" data-trim data-line-numbers>
+        const rides = [
+         {name: 'horse', speed:20},
+         {name: 'dog', speed:30},
+         {name: 'cat', speed:15},
+         {name: 'pig', speed:10}
+        ];
+          svg.selectAll().data(rides);
+      </code></pre></section>
+      <section>
+        <h4 style="font-size: 46px; color:rgb(255, 200, 0); font-weight:600; margin-bottom:40px; ">Enter > Update > Exit</h4>
+        <pre><code class="hljs javascript" data-trim data-line-numbers>
+         svg.selectAll()
+            .data(rides)
+            .enter()
+            .update()
+            .exit()
+      </code></pre></section>
+ 
+     <section>
+      <h4 style="font-size: 46px; color:rgb(255, 200, 0); font-weight:600; margin-bottom:40px; ">Scale functions</h4>
+      <pre><code class="hljs javascript" data-trim data-line-numbers>
+        let thresholdScale = d3.scaleThreshold()
+         .domain([0, 50, 100])
+         .range(['#ccc', 'lightblue', 'orange', '#ccc']);
+
+
+         thresholdScale(-10) // returns '#ccc'
+         thresholdScale(20) // returns 'lightblue'
+    </code></pre> <img src="./examples/assets/scale.jpg" style="height: 100px;"/></section>  
+    <section>
+      <h4 style="font-size: 46px; color:rgb(255, 200, 0); font-weight:600; margin-bottom:40px; ">Animation</h4>
+      <pre><code class="hljs javascript" data-trim data-line-numbers>
+     clipRect.transition()
+             .duration(5000)
+             .ease(d3.easeLinear)
+             .attr("width", someValue)
+    </code></pre> <img src="./examples/assets/animation.gif" style="height: 300px;"/>
+     </section> 
+    
+   <section>
+    <h4 style="font-size: 46px; color:rgb(255, 200, 0); font-weight:600; margin-bottom:40px; ">Events</h4>
+    <ul style="list-style: none;">
+    <li>.on('mouseover', function)</li>
+    <li>.on('mouseout', function)</li>
+    <li>.on('click', function)</li>
+    <li>.on('mouseenter', function)</li>
+    <li>.on('mouseleave', function)</li></ul>  </section>
+    <section>
+    <pre><code class="hljs javascript" data-trim data-line-numbers>
+   d3.select('rect')
+     .on('mouseover',()=> showToolTip())
+   </code>
+  </pre>
+   <img src="./examples/assets/event.gif" style="height: 300px;"/>
+  </section>
+   </section>
+  <section>
+    <img
+    src="./examples/assets/logo_d3.png "
+    alt="d3.js logo"
+    style="position:absolute;
+      height: 100px;
+      bottom: -150px;
+      left:-150px;
+      opacity:0.3;
+    " class="demo-logo"/>
+    <h2 style="color: rgb(247,144,69);
+      font-size: 84px; font-weight:600
+     ">Conclusion</h2>
+    <p style="text-align: justify;">D3.js is another JavaScript library, one of thousands, but it can also change the way we think what a web page can do. Although you may initially use it to build one-off data visualizations, D3 has much more power and functionality than that. </p>
+  </section>
+    </div>
+  </div>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight,
+        ],
+      });
+    </script>
+  </body>
+</html>
